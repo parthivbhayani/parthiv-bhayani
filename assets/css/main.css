@@ -3004,6 +3004,7 @@ ul.icons {
 .work__image-box {
     margin-bottom: var(--gutter-normal);
 	border: 2px solid black;
+	border-radius: 4px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 	
 }
