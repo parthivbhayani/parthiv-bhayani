@@ -3006,7 +3006,18 @@ ul.icons {
 	border: 2px solid black;
 	border-radius: 4px;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	overflow: hidden; /* Ensure the content inside the box stays within bounds */
+    display: flex; /* Added to align the image properly */
+    align-items: center;
+    justify-content: center;
 	
+}
+
+.work__image-box img {
+    display: block;
+    width: 100%; /* Stretch the image horizontally */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Adjust to cover the box without leaving white spaces */
 }
 
 @media(min-width: 901px) {
